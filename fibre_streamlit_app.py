@@ -6,8 +6,8 @@ import numpy as np
 import altair as alt
 pd.set_option("display.max_row",2000)
 pd.set_option("display.max_column",500)
-from IPython.core.interactiveshell import InteractiveShell
-InteractiveShell.ast_node_interactivity = "all"
+#from IPython.core.interactiveshell import InteractiveShell
+#InteractiveShell.ast_node_interactivity = "all"
 import warnings
 warnings.filterwarnings('ignore')
 alt.data_transformers.disable_max_rows()
@@ -29,7 +29,7 @@ from io import BytesIO
 import streamlit as st
 from PIL import Image
 from st_aggrid import AgGrid
-from glob import globf
+from glob import glob
 
 
 
