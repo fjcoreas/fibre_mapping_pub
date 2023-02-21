@@ -134,6 +134,7 @@ def el_salvador_map_df():
                                 sv_admin_boundaries_2,
                                 #sv_admin_boundaries_all
                                 ])
+    
     el_salvador_map['ADM1_ES'] = el_salvador_map['ADM1_ES'].str.upper().str.replace('Á','A').str.replace('É','E').str.replace('Í','I').str.replace('Ó','O').str.replace('Ú','U')
     el_salvador_map['ADM2_ES'] = el_salvador_map['ADM2_ES'].str.upper().str.replace('Á','A').str.replace('É','E').str.replace('Í','I').str.replace('Ó','O').str.replace('Ú','U')
     return el_salvador_map,sv_admin_boundaries_2,sv_admin_boundaries_1
