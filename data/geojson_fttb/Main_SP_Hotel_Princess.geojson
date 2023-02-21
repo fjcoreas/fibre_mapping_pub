@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"name": "Main SP Hotel Princess",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "HOTE PRINCESS_PON1_1X4_SP REDONDEL ITALIA", "description": null }, "geometry": { "type": "Point", "coordinates": [ -89.240177696158767, 13.689948377088861 ] } },
+{ "type": "Feature", "properties": { "Name": "HOTEL PRINCESS_PON2_1X4_SP REDONDEL BRASIL", "description": null }, "geometry": { "type": "Point", "coordinates": [ -89.235633078470258, 13.69506456069729 ] } },
+{ "type": "Feature", "properties": { "Name": "HOTEL PRINCES_PON3_1X4_SP PLAZA SUIZA", "description": null }, "geometry": { "type": "Point", "coordinates": [ -89.22957833488617, 13.69387391834803 ] } },
+{ "type": "Feature", "properties": { "Name": "HOTEL PRINCESS_PON4_1X4_SP PIZZA BOOM", "description": null }, "geometry": { "type": "Point", "coordinates": [ -89.226898848637845, 13.697829528089761 ] } },
+{ "type": "Feature", "properties": { "Name": "HOTEL PRINCESS_PON5_1X4_SP ESCUELA AMERICANA", "description": null }, "geometry": { "type": "Point", "coordinates": [ -89.241688986085194, 13.697818870422511 ] } },
+{ "type": "Feature", "properties": { "Name": "HOTEL PRINCESS_PON6_1X4_SP CALLE PADRES AGUILAR", "description": null }, "geometry": { "type": "Point", "coordinates": [ -89.241121688808761, 13.702027986378811 ] } },
+{ "type": "Feature", "properties": { "Name": "HOTE PRINCESS_PON7_1X4_SP REDONDEL LAS AMERICAS", "description": null }, "geometry": { "type": "Point", "coordinates": [ -89.243824920992125, 13.69033949444373 ] } },
+{ "type": "Feature", "properties": { "Name": "HOTE PRINCESS_PON8_SP 1X4_RBS SULTANA", "description": null }, "geometry": { "type": "Point", "coordinates": [ -89.239625768022478, 13.68316094363866 ] } },
+{ "type": "Feature", "properties": { "Name": "HOTEL PRINCESS_PON9_1X4_SP AVE JERUSALEN", "description": null }, "geometry": { "type": "Point", "coordinates": [ -89.249863943400186, 13.69714091740555 ] } }
+]
+}

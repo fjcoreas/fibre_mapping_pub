@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"name": "Main SP Torre Roble",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "TORRE ROBLE_PON1_1X4_SP INTERNO 1", "description": null }, "geometry": { "type": "Point", "coordinates": [ -89.212781175773287, 13.70643919023316 ] } },
+{ "type": "Feature", "properties": { "Name": "TORRE ROBLE_PON2_1X4_SP UNO LOS HEROES", "description": null }, "geometry": { "type": "Point", "coordinates": [ -89.211339249961924, 13.707959384787101 ] } },
+{ "type": "Feature", "properties": { "Name": "TORRE ROBLE_PON3_1X4_SP COLONIA MEDICA", "description": null }, "geometry": { "type": "Point", "coordinates": [ -89.203466727789561, 13.71074346240558 ] } },
+{ "type": "Feature", "properties": { "Name": "TORRE ROBLE_PON4_1X4_SP TRES TORRES", "description": null }, "geometry": { "type": "Point", "coordinates": [ -89.20787660400309, 13.71174347233066 ] } },
+{ "type": "Feature", "properties": { "Name": "TORRE ROBLE_PON5_1X4_SP PROLINGUA", "description": null }, "geometry": { "type": "Point", "coordinates": [ -89.208355466253565, 13.71456381091286 ] } },
+{ "type": "Feature", "properties": { "Name": "TORRE ROBLE_PON6_1X4_SP OFFICE DEPOT", "description": null }, "geometry": { "type": "Point", "coordinates": [ -89.215740006197322, 13.703651782517261 ] } },
+{ "type": "Feature", "properties": { "Name": "TORRE ROBLE_PON7_1X4_SP PUERTO BUS", "description": null }, "geometry": { "type": "Point", "coordinates": [ -89.20288747054289, 13.702243501397639 ] } },
+{ "type": "Feature", "properties": { "Name": "TORRE ROBLE_PON8_1X4_SP PUMA FLOR BLANCA", "description": null }, "geometry": { "type": "Point", "coordinates": [ -89.216001934889164, 13.700662310268831 ] } },
+{ "type": "Feature", "properties": { "Name": "TORRE ROBLE_PON9_1X4_SP FLOR BLANCA", "description": null }, "geometry": { "type": "Point", "coordinates": [ -89.216412849702039, 13.697002020913381 ] } },
+{ "type": "Feature", "properties": { "Name": "TORRE ROBLE_PON10_1X4_SP COL SAN MATEO", "description": null }, "geometry": { "type": "Point", "coordinates": [ -89.222691625251343, 13.687755465140521 ] } }
+]
+}

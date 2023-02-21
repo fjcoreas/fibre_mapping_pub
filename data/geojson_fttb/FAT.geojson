@@ -1,0 +1,20 @@
+{
+"type": "FeatureCollection",
+"name": "FAT",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "FAT 1", "description": "FAT METRO\nMUFA COYOTE" }, "geometry": { "type": "Point", "coordinates": [ -89.213848273413518, 13.70569993467503 ] } },
+{ "type": "Feature", "properties": { "Name": "FAT 2", "description": "FAT LOS HEROES\nMUFA COYOTE" }, "geometry": { "type": "Point", "coordinates": [ -89.209109287499658, 13.70948960062884 ] } },
+{ "type": "Feature", "properties": { "Name": "FAT 3", "description": "FAT TORRE ACTIVA\nMUFA COYOTE" }, "geometry": { "type": "Point", "coordinates": [ -89.207443018116777, 13.7107548210047 ] } },
+{ "type": "Feature", "properties": { "Name": "FAT 4", "description": "FAT SCOUTS\nMUFA COYOTE" }, "geometry": { "type": "Point", "coordinates": [ -89.211178662571655, 13.703841063614471 ] } },
+{ "type": "Feature", "properties": { "Name": "FAT 5", "description": "FAT PROGRESO\nMUFA COYOTE" }, "geometry": { "type": "Point", "coordinates": [ -89.220969679543856, 13.69705232378471 ] } },
+{ "type": "Feature", "properties": { "Name": "FAT 6", "description": "FAT CAFE DON PEDRO\nMUFA COYOTE" }, "geometry": { "type": "Point", "coordinates": [ -89.211602591304583, 13.7002000497335 ] } },
+{ "type": "Feature", "properties": { "Name": "FAT 7", "description": "FAT SAQUIRO\nMUFA COYOTE" }, "geometry": { "type": "Point", "coordinates": [ -89.223085815936017, 13.68446007820563 ] } },
+{ "type": "Feature", "properties": { "Name": "FAT 8", "description": "FAT 29 CALLE\nMUFA COYOTE" }, "geometry": { "type": "Point", "coordinates": [ -89.203365670315819, 13.71434481749888 ] } },
+{ "type": "Feature", "properties": { "Name": "FAT 9", "description": "FAT TEXACO CENTROAMERICANA\nMUFA COYOTE" }, "geometry": { "type": "Point", "coordinates": [ -89.204299859822669, 13.707135764971129 ] } },
+{ "type": "Feature", "properties": { "Name": "FAT 10", "description": "FAT TEXACO 25 AVE\nMUFA COYOTE" }, "geometry": { "type": "Point", "coordinates": [ -89.204517551566596, 13.70455058453622 ] } },
+{ "type": "Feature", "properties": { "Name": "FAT 11", "description": "FAT EXCEL AUTO\nMUFA COYOTE" }, "geometry": { "type": "Point", "coordinates": [ -89.216872097198504, 13.69183312623306 ] } },
+{ "type": "Feature", "properties": { "Name": "FAT 12", "description": "FAT IPSFA\nMUFA COYOTE" }, "geometry": { "type": "Point", "coordinates": [ -89.218947675473444, 13.70086621461253 ] } },
+{ "type": "Feature", "properties": { "Name": "FAT 13", "description": "FAT LAS AMAPOLAS\nMUFA COYOTE" }, "geometry": { "type": "Point", "coordinates": [ -89.222360120228302, 13.69121158265378 ] } }
+]
+}

@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "Main SP Hotel Radisson",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "HOTEL RADISSON_PON1_1X4_SP REDONDEL LUCEIRO", "description": null }, "geometry": { "type": "Point", "coordinates": [ -89.248114532231241, 13.71170176042318 ] } },
+{ "type": "Feature", "properties": { "Name": "HOTEL RADISSON_PON2_1X4_SP TEXACO MASFERRER", "description": null }, "geometry": { "type": "Point", "coordinates": [ -89.249318663470405, 13.70533741722511 ] } },
+{ "type": "Feature", "properties": { "Name": "HOTEL RADISSON_PON3_1X4_91 AVE NORTE", "description": null }, "geometry": { "type": "Point", "coordinates": [ -89.243567135705604, 13.70313208137004 ] } },
+{ "type": "Feature", "properties": { "Name": "HOTEL RADISSON_PON4_1X4_SP WTC", "description": null }, "geometry": { "type": "Point", "coordinates": [ -89.2404793379079, 13.708856958534721 ] } },
+{ "type": "Feature", "properties": { "Name": "HOTEL RADISSON_PON5_1X4_79 AVE", "description": null }, "geometry": { "type": "Point", "coordinates": [ -89.235579706706389, 13.706265176674821 ] } },
+{ "type": "Feature", "properties": { "Name": "HOTEL RADISSON_PON6_1X4_GALERIAS", "description": null }, "geometry": { "type": "Point", "coordinates": [ -89.230834769949183, 13.702674746087331 ] } },
+{ "type": "Feature", "properties": { "Name": "HOTEL RADISSON_PON7_1X4_BK 75 AVE", "description": null }, "geometry": { "type": "Point", "coordinates": [ -89.2317735310762, 13.71066963561463 ] } }
+]
+}
