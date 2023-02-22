@@ -126,7 +126,7 @@ def line_gdp_df():
 @st.cache(allow_output_mutation=True)
 def el_salvador_map_df():
     #sv_admin_boundaries_0 = gpd.read_file('data\others\slv_admbnda_adm0_gadm_20210204.shp')
-    sv_admin_boundaries_1 = gpd.read_file('data\slv_admbnda_adm1_gadm_20210204.shp')
+    sv_admin_boundaries_1 = gpd.read_file('data/slv_admbnda_adm1_gadm_20210204.shp')
     sv_admin_boundaries_2 = gpd.read_file('data\slv_admbnda_adm2_gadm_20210204.shp')
     #sv_admin_boundaries_all = gpd.read_file('data\others\slv_admbndp_admALL_gadm_itos_20210204.shp')
     el_salvador_map = pd.concat([#sv_admin_boundaries_0,
