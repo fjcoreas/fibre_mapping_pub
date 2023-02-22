@@ -4,9 +4,9 @@
 #
 #    pip-compile requirements.in
 #
-folium==0.12.1.post1
         #via internet
-streamlit_folium==0.6.2
+streamlit-aggrid==0.3.3
+streamlit-folium==0.11.0
         #via Internet
 geopandas==0.12.2
         #via internet
@@ -20,3 +20,5 @@ geopy==2.3.0
 scipy==1.7.3
 googlemaps==4.10.0
 geojson==3.0.0
+Fiona==1.9.0
+folium==0.14.0
