@@ -76,9 +76,9 @@ def ckdnearest(gdA, gdB):
 
 
 def read_geojsons():
-    files_fttb = sorted(glob(r'data\geojson_fttb\*.geojson'))
+    files_fttb = sorted(glob('data/geojson_fttb/*.geojson'))
     fttb_geojsons = pd.concat(gpd.read_file(file) for file in files_fttb)
-    files_fibre = sorted(glob(r'data\geojson_existing_fibre\*.geojson'))
+    files_fibre = sorted(glob('data/geojson_existing_fibre/*.geojson'))
     fttb_fibregeojsons = pd.concat(gpd.read_file(file) for file in files_fibre)
     
     return fttb_fibregeojsons,fttb_geojsons
