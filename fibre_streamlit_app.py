@@ -143,7 +143,7 @@ def el_salvador_map_df():
 
 # CONNECTION TO GOOGLE MAPS
 
-API_KEY=st.secrets["db_username"] #'AIzaSyA2s1Y5UsUX4IMZPWIQoGOc8Hi2U1wSgIo'
+API_KEY=st.secrets["db_username"]
 gmaps =  googlemaps.Client(key=API_KEY)
 
 @st.cache(allow_output_mutation=True)
