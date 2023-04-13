@@ -191,10 +191,7 @@ def lead_generator(location,type,distance):
                             'website',
                             'rating',
                             'vicinity',
-                            'geometry',
-                            'review'
-                            
-                            
+                            'geometry'
                         ]
             place_details = gmaps.place(place_id=place, fields=my_fields)
             place_detail_df.append(pd.DataFrame(json_normalize(place_details)))
@@ -295,10 +292,6 @@ def lead_generator(location,type,distance):
             places_detail_df_final['southwest.lng'] = places_detail_df_final['southwest.lng']
         else:
             places_detail_df_final['southwest.lng'] = 'NO DISPONIBLE' 
-        if 'result.review' in list(places_detail_df_final.columns):
-            places_detail_df_final['reviews'] = places_detail_df_final['result.review'].apply(lambda x: ', '.join([review['text'] for review in x]))
-        else:
-            places_detail_df_final['reviews'] = 'NO DISPONIBLE'
             
 
         places_detail_df_final = places_detail_df_final[[
@@ -320,7 +313,6 @@ def lead_generator(location,type,distance):
                                                             'northeast.lng',
                                                             'southwest.lat',
                                                             'southwest.lng',
-                                                            'reviews',
                                                         ]]
         
         crs = {'init':'epsg:4326'}
@@ -754,9 +746,7 @@ if opciones_ == '1 ubicacion':
                                                 #'SiteName',
                                                 'lat_fibra',
                                                 'lon_fibra',
-                                                'distances_final_fibra',
-                                                'reviews'
-                                                ]]
+                                                'distances_final_fibra']]
             AgGrid(
                     pd.DataFrame(nearest_df_fibra),
                     height=100,
@@ -824,8 +814,7 @@ elif opciones_ == 'Mas de 1 ubicacion':
                                             'sitio',
                                             'lat_fibra',
                                             'lon_fibra',
-                                            'distances_final_fibra',
-                                            'reviews'
+                                            'distances_final_fibra'
                                             ]]
         AgGrid(
                     nearest_df_fibra,
