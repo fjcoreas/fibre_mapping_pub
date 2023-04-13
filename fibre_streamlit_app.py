@@ -754,7 +754,9 @@ if opciones_ == '1 ubicacion':
                                                 #'SiteName',
                                                 'lat_fibra',
                                                 'lon_fibra',
-                                                'distances_final_fibra']]
+                                                'distances_final_fibra',
+                                                'reviews'
+                                                ]]
             AgGrid(
                     pd.DataFrame(nearest_df_fibra),
                     height=100,
@@ -822,7 +824,8 @@ elif opciones_ == 'Mas de 1 ubicacion':
                                             'sitio',
                                             'lat_fibra',
                                             'lon_fibra',
-                                            'distances_final_fibra'
+                                            'distances_final_fibra',
+                                            'reviews'
                                             ]]
         AgGrid(
                     nearest_df_fibra,
