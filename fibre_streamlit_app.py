@@ -383,6 +383,7 @@ def folium_map(df, selection):
             fttb_fibregeojsons_2,
             line_weight=4,
             line_color='purple',
+            fill=False,
             name = 'FTTB LINES 2'
         ).add_to(m)
         
