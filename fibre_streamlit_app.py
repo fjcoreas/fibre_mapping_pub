@@ -383,7 +383,7 @@ def folium_map(df, selection):
             fttb_fibregeojsons_2,
             line_weight=4,
             line_color='purple',
-            name = 'FTTB LINES'
+            name = 'FTTB LINES 2'
         ).add_to(m)
         
         fttb_line.geojson.add_child(
@@ -398,10 +398,10 @@ def folium_map(df, selection):
                                        aliases=['Description: ', 'Name: '],
                                        style=("background-color: white; color: #333333; font-family: arial; font-size: 12px; padding: 10px;"))) # setting style for popup box
         
-        fttb2_line.geojson.add_child(
-        folium.features.GeoJsonTooltip(fields=['description', 'Name'],
-                                       aliases=['Description: ', 'Name: '],
-                                       style=("background-color: white; color: #333333; font-family: arial; font-size: 12px; padding: 10px;"))) # setting style for popup box
+        #fttb2_line.geojson.add_child(
+        #folium.features.GeoJsonTooltip(fields=['description', 'Name'],
+        #                               aliases=['Description: ', 'Name: '],
+        #                               style=("background-color: white; color: #333333; font-family: arial; font-size: 12px; padding: 10px;"))) # setting style for popup box
 
 
 
@@ -647,7 +647,8 @@ def folium_map(df, selection):
         fttb2_line.geojson.add_child(
         folium.features.GeoJsonTooltip(fields=['description', 'Name'],
                                        aliases=['Description: ', 'Name: '],
-                                       style=("background-color: white; color: #333333; font-family: arial; font-size: 12px; padding: 10px;"))) # setting style for popup box
+                                       style=("background-color: white; color: #333333; font-family: arial; font-size: 12px; padding: 10px;")
+                                       )) # setting style for popup box
         
         shapelayer_distance = folium.FeatureGroup(name="Distancia Fibra",show=False).add_to(m)
         shapesLayer_borders = folium.FeatureGroup(name="Borders El Salvador",show=False).add_to(m)
