@@ -712,7 +712,7 @@ fibre, fibre_lines_gpd = linestring_fibre()
 
 el_salvador_map,sv_admin_boundaries_2,sv_admin_boundaries_1 = el_salvador_map_df()
 
-fttb_fibregeojsons,fttb_geojsons = read_geojsons()
+fttb_fibregeojsons,fttb_geojsons,fttb_fibregeojsons_2 = read_geojsons()
 
 geo_type = []
 for geo in fttb_geojsons.geometry:
