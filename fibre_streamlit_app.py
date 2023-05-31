@@ -399,8 +399,8 @@ def folium_map(df, selection):
                                        style=("background-color: white; color: #333333; font-family: arial; font-size: 12px; padding: 10px;"))) # setting style for popup box
         
         fttb2_line.geojson.add_child(
-        folium.features.GeoJsonTooltip(fields=['description', 'Name'],
-                                       aliases=['Description: ', 'Name: '],
+        folium.features.GeoJsonTooltip(fields=['Field_1', 'Type', 'Country', 'Comments', 'SHAPE', 'LABEL', 'Name', 'Eqpt_Label'],
+                                       aliases=['Field_1: ', 'Type: ', 'Country: ', 'Comments: ', 'SHAPE: ', 'LABEL: ', 'Name: ', 'Eqpt_Label: '],
                                        style=("background-color: white; color: #333333; font-family: arial; font-size: 12px; padding: 10px;"))) # setting style for popup box
 
 
