@@ -380,7 +380,7 @@ def folium_map(df, selection):
         ).add_to(m)
         
         fttb2_line = folium.Choropleth(
-            fttb_fibregeojsons_2,
+            fttb_fibregeojsons_2[~fttb_fibregeojsons_2.geometry.astype(str).str.lower().str.contains('point',na=False)],
             line_weight=4,
             line_color='purple',
             fill=False,
