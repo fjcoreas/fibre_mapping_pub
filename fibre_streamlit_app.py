@@ -788,14 +788,14 @@ if opciones_ == '1 ubicacion':
                                                 'lat_fibra',
                                                 'lon_fibra',
                                                 'distances_final_fibra']]
-            AgGrid(
-                    pd.DataFrame(nearest_df_fibra),
-                    height=100,
-                    theme='alpine',
-                    #fit_columns_on_grid_load=True,
-                    width='80%'
-                
-                )
+            #AgGrid(
+            #        pd.DataFrame(nearest_df_fibra),
+            #        height=100,
+            #        theme='alpine',
+            #        #fit_columns_on_grid_load=True,
+            #        width='80%'
+            #    
+            #    )
             
             
             
