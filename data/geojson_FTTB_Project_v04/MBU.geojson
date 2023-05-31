@@ -1,0 +1,21 @@
+{
+"type": "FeatureCollection",
+"name": "MBU",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Field_1": "MBU", "Type": "MBU", "Country": "El Sal" }, "geometry": { "type": "Point", "coordinates": [ -89.230653561345605, 13.7023819095667 ] } },
+{ "type": "Feature", "properties": { "Field_1": "MBU", "Type": "MBU", "Country": "El Sal" }, "geometry": { "type": "Point", "coordinates": [ -89.230589362345597, 13.7023236954838 ] } },
+{ "type": "Feature", "properties": { "Field_1": "MBU", "Type": "MBU", "Country": "El Sal" }, "geometry": { "type": "Point", "coordinates": [ -89.230674961012298, 13.702298747085401 ] } },
+{ "type": "Feature", "properties": { "Field_1": "MBU", "Type": "MBU", "Country": "El Sal" }, "geometry": { "type": "Point", "coordinates": [ -89.230531583604801, 13.7022696400355 ] } },
+{ "type": "Feature", "properties": { "Field_1": "MBU", "Type": "MBU", "Country": "El Sal" }, "geometry": { "type": "Point", "coordinates": [ -89.230604341752894, 13.7022426118703 ] } },
+{ "type": "Feature", "properties": { "Field_1": "MBU", "Type": "MBU", "Country": "El Sal" }, "geometry": { "type": "Point", "coordinates": [ -89.230683521058694, 13.7022155845748 ] } },
+{ "type": "Feature", "properties": { "Field_1": "MBU", "Type": "MBU", "Country": "El Sal" }, "geometry": { "type": "Point", "coordinates": [ -89.230535863178801, 13.702176082197299 ] } },
+{ "type": "Feature", "properties": { "Field_1": "MBU", "Type": "MBU", "Country": "El Sal" }, "geometry": { "type": "Point", "coordinates": [ -89.230621461845601, 13.702149054021399 ] } },
+{ "type": "Feature", "properties": { "Field_1": "MBU", "Type": "MBU", "Country": "El Sal" }, "geometry": { "type": "Point", "coordinates": [ -89.230696360679005, 13.702126184493901 ] } },
+{ "type": "Feature", "properties": { "Field_1": "MBU", "Type": "MBU", "Country": "El Sal" }, "geometry": { "type": "Point", "coordinates": [ -89.231710705958506, 13.702101984021001 ] } },
+{ "type": "Feature", "properties": { "Field_1": "MBU", "Type": "MBU", "Country": "El Sal" }, "geometry": { "type": "Point", "coordinates": [ -89.231891491011098, 13.7021139598909 ] } },
+{ "type": "Feature", "properties": { "Field_1": "MBU", "Type": "MBU", "Country": "El Sal" }, "geometry": { "type": "Point", "coordinates": [ -89.233510188677798, 13.702442822173101 ] } },
+{ "type": "Feature", "properties": { "Field_1": "MBU", "Type": "MBU", "Country": "El Sal" }, "geometry": { "type": "Point", "coordinates": [ -89.241255588821602, 13.7079655987308 ] } },
+{ "type": "Feature", "properties": { "Field_1": "MBU", "Type": "MBU", "Country": "El Sal" }, "geometry": { "type": "Point", "coordinates": [ -89.241040971418798, 13.7086793101079 ] } }
+]
+}

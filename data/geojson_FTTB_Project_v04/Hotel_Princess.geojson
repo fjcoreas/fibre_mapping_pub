@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Hotel Princess",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "OLT", "Field_1": "OLT", "Type": "OLT", "Eqpt_Label": "Hotel Princess", "Country": "El Sal" }, "geometry": { "type": "Point", "coordinates": [ -89.237399999859207, 13.6928999997243 ] } }
+]
+}

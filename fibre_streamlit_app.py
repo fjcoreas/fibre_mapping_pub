@@ -80,8 +80,10 @@ def read_geojsons():
     fttb_geojsons = pd.concat(gpd.read_file(file) for file in files_fttb)
     files_fibre = sorted(glob('data/geojson_existing_fibre/*.geojson'))
     fttb_fibregeojsons = pd.concat(gpd.read_file(file) for file in files_fibre)
+    files_fttb_2 = sorted(glob('data/geojson_FTTB_Project_v04/*.geojson'))
+    fttb_fibregeojsons_2 = pd.concat(gpd.read_file(file) for file in files_fttb_2)
     
-    return fttb_fibregeojsons,fttb_geojsons
+    return fttb_fibregeojsons,fttb_geojsons,fttb_fibregeojsons_2
 
 
 @st.cache(allow_output_mutation=True)
@@ -377,6 +379,13 @@ def folium_map(df, selection):
             name = 'FTTB LINES'
         ).add_to(m)
         
+        fttb2_line = folium.Choropleth(
+            fttb_fibregeojsons_2,
+            line_weight=4,
+            line_color='purple',
+            name = 'FTTB LINES'
+        ).add_to(m)
+        
         fttb_line.geojson.add_child(
         folium.features.GeoJsonTooltip(fields=['description', 'Name'],
                                        aliases=['Description: ', 'Name: '],
@@ -388,6 +397,13 @@ def folium_map(df, selection):
         folium.features.GeoJsonTooltip(fields=['description', 'Name'],
                                        aliases=['Description: ', 'Name: '],
                                        style=("background-color: white; color: #333333; font-family: arial; font-size: 12px; padding: 10px;"))) # setting style for popup box
+        
+        fttb2_line.geojson.add_child(
+        folium.features.GeoJsonTooltip(fields=['description', 'Name'],
+                                       aliases=['Description: ', 'Name: '],
+                                       style=("background-color: white; color: #333333; font-family: arial; font-size: 12px; padding: 10px;"))) # setting style for popup box
+
+
 
         shapelayer_distance = folium.FeatureGroup(name="Distancia Fibra",show=False).add_to(m)
         shapesLayer_borders = folium.FeatureGroup(name="Borders El Salvador",show=False).add_to(m)
@@ -487,6 +503,13 @@ def folium_map(df, selection):
             name = 'FTTB LINES'
         ).add_to(m)
         
+        fttb2_line = folium.Choropleth(
+            fttb_fibregeojsons_2,
+            line_weight=4,
+            line_color='purple',
+            name = 'FTTB LINES'
+        ).add_to(m)
+        
         fttb_line.geojson.add_child(
         folium.features.GeoJsonTooltip(fields=['description', 'Name'],
                                        aliases=['Description: ', 'Name: '],
@@ -495,6 +518,11 @@ def folium_map(df, selection):
         
         
         fibre_lines.geojson.add_child(
+        folium.features.GeoJsonTooltip(fields=['description', 'Name'],
+                                       aliases=['Description: ', 'Name: '],
+                                       style=("background-color: white; color: #333333; font-family: arial; font-size: 12px; padding: 10px;"))) # setting style for popup box
+        
+        fttb2_line.geojson.add_child(
         folium.features.GeoJsonTooltip(fields=['description', 'Name'],
                                        aliases=['Description: ', 'Name: '],
                                        style=("background-color: white; color: #333333; font-family: arial; font-size: 12px; padding: 10px;"))) # setting style for popup box
@@ -596,6 +624,13 @@ def folium_map(df, selection):
             line_color='mediumblue',
             name = 'FTTB LINES'
         ).add_to(m)
+        
+        fttb2_line = folium.Choropleth(
+            fttb_fibregeojsons_2,
+            line_weight=4,
+            line_color='purple',
+            name = 'FTTB LINES'
+        ).add_to(m)
 
         fttb_line.geojson.add_child(
         folium.features.GeoJsonTooltip(fields=['description', 'Name'],
@@ -605,6 +640,11 @@ def folium_map(df, selection):
         
         
         fibre_lines.geojson.add_child(
+        folium.features.GeoJsonTooltip(fields=['description', 'Name'],
+                                       aliases=['Description: ', 'Name: '],
+                                       style=("background-color: white; color: #333333; font-family: arial; font-size: 12px; padding: 10px;"))) # setting style for popup box
+        
+        fttb2_line.geojson.add_child(
         folium.features.GeoJsonTooltip(fields=['description', 'Name'],
                                        aliases=['Description: ', 'Name: '],
                                        style=("background-color: white; color: #333333; font-family: arial; font-size: 12px; padding: 10px;"))) # setting style for popup box
