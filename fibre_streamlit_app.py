@@ -86,7 +86,7 @@ def read_geojsons():
     return fttb_fibregeojsons,fttb_geojsons,fttb_fibregeojsons_2
 
 
-@st.cache_data(allow_output_mutation=True)
+@st.cache_data
 def linestring_fibre():
     fibre = pd.read_excel('data/ruta_de_fibra.xlsx')
     fibre_lines_gpd = []
@@ -107,7 +107,7 @@ def linestring_fibre():
     
     return fibre, fibre_lines_gpd
 
-@st.cache_data(allow_output_mutation=True)
+@st.cache_data
 def line_gdp_df():
     fibre_fttb = pd.read_excel('data/ruta_de_fibra_fttb.xlsx')
     fibre_fttb_for_ranking = fibre_fttb.sitio.value_counts().reset_index()
@@ -125,7 +125,7 @@ def line_gdp_df():
     fibre_fttb_lines_gpd =pd.concat(fibre_fttb_lines_gpd )
     return fibre_fttb_lines_gpd, fibre_fttb[fibre_fttb.sitio.isin(fibre_fttb_for_points)]
 
-@st.cache_data(allow_output_mutation=True)
+@st.cache_data
 def el_salvador_map_df():
     #sv_admin_boundaries_0 = gpd.read_file('data\others\slv_admbnda_adm0_gadm_20210204.shp')
     sv_admin_boundaries_1 = gpd.read_file('data/slv_admbnda_adm1_gadm_20210204.shp')
@@ -148,7 +148,7 @@ def el_salvador_map_df():
 API_KEY=st.secrets["db_username"]
 gmaps =  googlemaps.Client(key=API_KEY)
 
-@st.cache_data(allow_output_mutation=True)
+@st.cache_data
 def lead_generator(location,type,distance): 
     
     business_list = []
