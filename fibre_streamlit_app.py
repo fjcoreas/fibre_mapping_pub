@@ -379,12 +379,12 @@ def folium_map(df, selection):
             name = 'FTTB LINES'
         ).add_to(m)
         
-        fttb2_line = folium.Choropleth(
-            fttb_fibregeojsons_2,
-            line_weight=4,
-            line_color='purple',
-            name = 'FTTB LINES 2'
-        ).add_to(m)
+        #fttb2_line = folium.Choropleth(
+        #    fttb_fibregeojsons_2,
+        #    line_weight=4,
+        #    line_color='purple',
+        #    name = 'FTTB LINES 2'
+        #).add_to(m)
         
         fttb_line.geojson.add_child(
         folium.features.GeoJsonTooltip(fields=['description', 'Name'],
